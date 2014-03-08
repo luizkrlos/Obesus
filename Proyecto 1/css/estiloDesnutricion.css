@@ -1,0 +1,119 @@
+﻿css selector{
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	
+	font-family:roboto;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	background: olive;
+	background-image: url('../img/desnu.jpg');
+	background-attachment:fixed;
+	background-repeat:repeat;
+	background-size:100% auto;
+	background-position:left; 
+}
+
+div#todo{
+	margin:0 auto;
+}
+header{
+	height: 150px;
+}
+
+aside#izquierda{
+	float:left;
+	margin:20px 80px 20px 20px;
+}
+#divIzq{
+	position:relative;
+	bottom:10px;
+}
+#abajo{
+	float: left;
+	position:relative;
+	top:20px;
+}
+
+#divBanner{
+	position: relative;
+	top:10px;
+}
+
+#banner{
+	height: 60px;
+	width: 200px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 15px #000;
+}
+
+#link{
+	padding: 15px;
+}
+
+
+img {
+	border-radius: 3px;
+	border-style: none;
+}
+
+section#centro{
+	border-radius: 3px;
+	box-shadow: 0 0 5px #000;
+	opacity: 0.9;
+	float:left;
+	
+}
+aside#derecha{
+	float:right;
+	max-width: 300px;
+	margin: 20px 10px 10px 10px;
+	text-align: center;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	top: 60px;
+	bottom: 0px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-moz-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+}
+
+
+div.info{
+	margin-top:100px; 
+	
+}
+
+table{
+	background-color:black;
+	opacity: 0.8;
+	border-radius: 15px;
+	border-collapse:collapse;
+	box-shadow: 5px 5px 15px #000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+table tr td{
+	padding: 15px;
+}
+
+
+.formulario{
+	azimuth:center;
+	background-color:silver;
+	font:12px Verdana, Geneva, sans-serif;
+	font-style:normal;
+	color:black;

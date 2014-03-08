@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+	<meta name="keywords" content="desnutricion,obesidad,ejercicio,frutas,verduras,vegetales"/>
+	<link rel="stylesheet" type="text/css" href="../estiloPrincipal.css" />
+	<title>REGISTRATE</title>
+</head>
+
+<body>
+	<h1>Formulario de alta</h1>
+	<form class="formulario">
+		<fieldset>
+			<legend>Datos Contacto</legend>
+			<p>
+				<label>Nombre(s): </label>
+				<input type="text" id="nombre">
+			</p>
+			<p>
+				<label>Apellido paterno: </label>
+				<input type="text" id="apellidop">
+			</p>
+			<p>
+				<label>Apellido materno: </label>
+				<input type="text" id="apellidom">
+			</p>
+			<p>
+				<label>Correo electronico: </label>
+				<input type="email" id="coreo">
+			</p>
+			<p>
+				<label>Constrasena: </label>
+				<input type="password" id="pass">
+			</p>
+		</fieldset>
+	</form>
+	
+	<form class="formulario">
+		<fieldset>
+			<legend>Datos generales</legend>
+			<p>
+				<label>Peso: </label>
+				<input type="text" id="peso">
+			</p>
+			<p>
+				<label>Altura: </label>
+				<input type="text" id="altura">
+			</p>
+			<p>
+				<label>Edad: </label>
+				<input type="date" id="edad">
+			</p>
+
+		</fieldset>
+	</form>
+
+	<form class="formulario">
+		<fieldset>
+			<legend>Historial medico</legend>
+			<p><br/>
+				<textarea id="historial" rows="10" cols="95"></textarea>
+			</p>
+			
+			<h3>Enfermedades cronicas o familiares</h3>
+			<p>
+				<label>Diabetes</label><input type="checkbox"/><br/>
+				<label>Hipertension</label><input type="checkbox"/><br/>
+				<label>Cancer</label><input type="checkbox"/><br/>
+				<label>Obesidad</label><input type="checkbox"/><br/>
+
+			</p>	
+		</fieldset>
+	</form>
+	<input type="submit" id="enviar" value="ENVIAR"/>
+	<input type="reset" id="borrar" value="BORRAR"/>
+	<input type="button" id="cancelar" value="CANCELAR"/> 
+
+</body>
+
+</html>

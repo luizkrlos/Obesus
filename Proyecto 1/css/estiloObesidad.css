@@ -1,0 +1,82 @@
+﻿css selector{
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	
+	font-family:roboto;
+	margin: 0px;
+	padding: 0px;
+	color:#fff;
+	background: olive;
+	background-image: url('../img/fondo_naranjas.jpg');
+	background-attachment:fixed;
+	background-repeat:repeat;
+	background-size:100% auto;
+	background-position:left; 
+}
+
+div#todo{
+	margin:0 auto;
+}
+header{
+	height: 150px;
+}
+
+aside#izquierda{
+	float:left;
+	margin:20px 80px 20px 20px;
+}
+#divIzq{
+	position:relative;
+	bottom:10px;
+}
+#abajo{
+	float: left;
+	position:relative;
+	top:20px;
+}
+
+#link{
+	padding: 15px;
+}
+
+
+img {
+	border-radius: 3px;
+	border-style: none;
+}
+
+div.info{
+	margin-top:100px; 
+	
+}
+#columna1{
+	float:left;
+	width:20%;
+}
+#columna2{
+	float:left;
+	width:35%;
+	background-color:black;
+	color:white;
+	opacity: 0.8;
+	border-radius:10px;
+	box-shadow: 5px 5px 15px #000;
+
+}
+
+#columnaS{
+	float:left;
+	width:5%;
+}
+#columna3{
+	float:left;
+	width:35%;
+	background-color:black;
+	color:white;
+	opacity: 0.8;
+	border-radius:10px;
+	box-shadow: 5px 5px 15px #000;
+
+}

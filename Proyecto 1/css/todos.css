@@ -1,0 +1,47 @@
+﻿contenido{
+	z-index:2;
+}
+
+nav ul{
+	top: 20px;
+	margin-left:50%;
+	list-style-type: none;
+}
+
+nav ul li{
+	float: left;
+} 
+
+nav ul li a{
+	text-decoration:none;
+	color:gray;
+	padding: 0px 5px 5px 5px;
+	border-radius: 10px 10px 0px 0px;
+	margin:auto 5px auto 5px;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	transition: color 1s, background 500ms;
+}
+
+nav.menu{
+	font-size: 20px;
+	position:fixed;
+	top: 0px;
+	left: 0px; 
+	width:100%;
+	height: auto;
+	background: #FFF;
+	border-bottom: 5px  solid #01DF01;
+	box-shadow: 0px 5px 15px gray inset;
+	opacity: 0.9;
+ 	min-width: 200px;
+	float: left;
+	text-shadow: 0px 0px 5px #01DF01;
+	top:auto;
+	z-index:1;
+}
+
+nav ul li a:HOVER{
+	color:#fff;
+	background: #01DF01;
+}
